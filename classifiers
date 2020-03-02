@@ -1,7 +1,10 @@
 import numpy as np
 import pandas as pd
 from scipy.stats import multivariate_normal as mvn
-
+################ Accuracy func ####################
+def accuracy(targets, predictions):
+    return np.mean(targets == predictions)
+################ Classifier 1 #####################
 class GaussNB():
     ''' Description
     This is a supervised learning algorithm, Gaussian Naive Bayes.
@@ -62,8 +65,7 @@ class GaussNB():
                 confusion_matrix[k,j] = sum(y_hat==j)
             confusion_matrix[k] = confusion_matrix[k]/sum(confusion_matrix[k])
         return np.round(confusion_matrix,2)
-
-
+################ Classifier 2 #####################
 class GenGaussNB():
     ''' Description
     This is a supervised learning algorithm, Gaussian Naive Bayes.
@@ -125,7 +127,7 @@ class GenGaussNB():
                 conf_matrix[i,j] = sum(y_hat==j)
             conf_matrix[i] = conf_matrix[i]/sum(conf_matrix[i])
         return np.round(conf_matrix,2)
-        
+################ Classifier 3 #####################       
 class BinomialNB():
     ''' Description
     This is a supervised learning algorithm, Binomial Naive Bayes.
