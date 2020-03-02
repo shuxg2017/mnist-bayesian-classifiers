@@ -6,7 +6,9 @@ Gaussian NBC Version 1 learns the means and variances from the dataset.
 <br>
 Gaussian NBC Version 2 learns the means and covariance matrix.
 <br>
-Binomial NBC learns the frequencies of 1s and 0s. Because the pixel values in digit images are between 0 and 255, so to implement Binomial NBC thresholding images will be the first step.
+Binomial NBC learns the frequencies of 1s and 0s.
+<br>
+For Binomial NBC, we need to preprocess (binary threshold) the images because the pixel values in digit images are between 0 and 255.
 <br>
 <br>
 Each NBC above is trained with training dataset (60k images).
