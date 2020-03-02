@@ -20,3 +20,15 @@ Model	| Parameters | 	Accuracy
 Gaussian NBC Version 1 | means, variances |	81.7%
 Gaussian NBC Version 2 |	means, covariance matrix | 	95.4%
 Binomial NBC | frequencies of 1s and 0s	| 83.8%
+
+### Learned Parameters (Means)
+
+![Mean of Each Category](/Parameters%20&%20Results/means.png)
+
+### Learned Parameters (Variances)
+
+![Variance of Each Category](/Parameters%20&%20Results/variances.png)
+
+### Learned Parameters (Covariance Matrixes)
+
+![covariance matrix of Each Category](/Parameters%20&%20Results/covariance%20matrix.png)
