@@ -4,7 +4,7 @@ Three approachs based on BC to classify handwritten digits (mnist dataset).
 <br>
 Gaussian naive BC learns the means and variances from the dataset.
 <br>
-Gaussian BC Version 2 learns the means and covariance matrix.
+Gaussian BC learns the means and covariance matrix.
 <br>
 Binomial naive BC learns the frequencies of 1s and 0s.
 <br>
