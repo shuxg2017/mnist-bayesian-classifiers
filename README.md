@@ -1,5 +1,5 @@
 # Bayesian Classifier (BC)
-Three approachs based on NBC to classify handwritten digits (mnist dataset).
+Three approachs based on BC to classify handwritten digits (mnist dataset).
 <br>
 <br>
 Gaussian naive BC learns the means and variances from the dataset.
